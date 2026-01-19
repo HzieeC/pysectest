@@ -1,0 +1,10 @@
+[project]
+name = "my-package"
+version = "0.0.0"
+
+[project.scripts]
+sectest = "sectest.cli:main"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
